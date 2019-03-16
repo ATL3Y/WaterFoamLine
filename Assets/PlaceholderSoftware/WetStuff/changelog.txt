@@ -1,0 +1,10 @@
+# Release Notes
+
+## v1.0.1 (2018-08-01)
+
+**Fixes:**
+* Fixed serialized fields incorrectly marked as readonly.
+
+## v1.0.0 (2018-07-30)
+
+Initial Release

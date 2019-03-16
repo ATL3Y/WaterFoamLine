@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DepthNoise
+  m_Shader: {fileID: 4800000, guid: 76d0095284dc18a4ba05abdd07c7db42, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _InputTex:
+        m_Texture: {fileID: 2800000, guid: 0783158cc3c9df846914a25b7a3a8965, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 446f2e144ab31284d840fe121b00189a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BaseHue: 0.39
+    - _Cutoff: 0.5
+    - _HueSize: 0.2
+    - _NoiseSize: 0.1
+    - _NoiseSpeed: 0.03
+    - _NumberSteps: 5.12
+    - _PatternSize: 10
+    - _Saturation: 1
+    - _TotalDepth: 5
+    m_Colors: []
